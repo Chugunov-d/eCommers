@@ -38,7 +38,7 @@ export const Input = (props: InputProps) => {
 
     return (
         <div className={cn(styles.inputContainer, className, {
-            [styles.rounded]: disabled, 
+            [styles.rounded]: true, 
             [styles.disabled]: disabled, 
             [styles.focused]: focus})}
         >
@@ -46,7 +46,7 @@ export const Input = (props: InputProps) => {
             <input 
                 {...rest} 
                 value={value} 
-                disabled={disabled}  
+                disabled={disabled}
                 type={showPassword && type == "password" ? "text" : type} 
                 className={cn(styles.input, {[styles.disabled]: disabled})}
                 onChange={handleChange}

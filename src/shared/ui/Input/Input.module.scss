@@ -1,4 +1,4 @@
-.inputContaainer{
+.inputContainer{
     min-width: 320px;
     display: flex;
     align-items: center;
@@ -24,5 +24,21 @@
 }
 
 .input{
+    width: 100;
+    border: none;
+    outline: none;
+    color: var(--gray-800);
+
+
+    &::placeholder{
+        color: var(--gray-400);
+    }
+
+    &.disabled{
+        color: var(--gray-300);
     
+        &::placeholder{
+            color: var(--gray-300);
+        }
+    }
 }

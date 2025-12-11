@@ -1,3 +1,29 @@
 {
-    "hello": "привет"
+    "header": {
+        "searchBy": "Поиск по",
+        "cart": "Корзина",
+        "login": "Логин"
+    },
+    "footer":{
+        "about": "О нас",
+        "aboutUs": "О нас",
+        "ourBranches": "Наши филиалы",
+        "changeLog": "История изменений",
+        "quickLinks": "Быстрые ссылки",
+        "faqs": "FAQ",
+        "recipes": "Рецепты",
+        "contactUs": "Свяжитесь с нами",
+        "helpSupport": "Поддержка",
+        "termsOfService": "Условия использования",
+        "privacyPolicy": "Политика конфиденциальности",
+        "security": "Политика безопасности",
+        "company": "Компания",
+        "blog": "Блог",
+        "contact": "Контакты",
+        "social": "Социальные сети",
+        "facebook": "Facebook",
+        "twitter": "Twitter",
+        "instagram": "Instagram",
+        "copyright": "© {{year}} {{company}}. Все права защищены."
+    }
 }
