@@ -25,5 +25,15 @@
         "twitter": "Twitter",
         "instagram": "Instagram",
         "copyright": "© {{year}} {{company}}. All rights reserved."
+    },
+    
+    "pageLoader":{
+        "loading": "Loading..."
+    },
+
+    "errorPage":{
+        "title": "Something went wrong",
+        "description": "Sorry, an unexpected error has occurred. Please try refreshing the page or come back later.",
+        "reload": "Try again"
     }
 }

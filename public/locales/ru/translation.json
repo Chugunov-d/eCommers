@@ -25,5 +25,15 @@
         "twitter": "Twitter",
         "instagram": "Instagram",
         "copyright": "© {{year}} {{company}}. Все права защищены."
+    },
+
+    "pageLoader":{
+        "loading": "Загрузка..."
+    },
+
+    "errorPage":{
+        "title": "Что-то пошло не так",
+        "description": "Извините, что-то пошло не так. Пожалуйста, перезагрузите страницу или попробуйте позже.",
+        "reload": "Попробовать еще раз"
     }
 }
